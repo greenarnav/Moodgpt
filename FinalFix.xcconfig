@@ -1,0 +1,7 @@
+// Fix for multiple commands produce Info.plist
+GENERATE_INFOPLIST_FILE = NO
+INFOPLIST_FILE = Moodgpt/Info.plist
+COPY_PHASE_STRIP = NO
+SKIP_INSTALL = YES
+// Additional settings to prevent similar issues
+PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.Moodgpt

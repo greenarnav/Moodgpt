@@ -1,0 +1,5 @@
+// Fix for "Multiple commands produce Info.plist" error
+GENERATE_INFOPLIST_FILE = NO
+INFOPLIST_FILE = Moodgpt/Info.plist
+INFOPLIST_KEY_UILaunchScreen_Generation = NO
+INFOPLIST_OUTPUT_FORMAT = binary

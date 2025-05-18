@@ -1,0 +1,4 @@
+// Disable automatic Info.plist generation
+GENERATE_INFOPLIST_FILE = NO
+// Use our existing Info.plist
+INFOPLIST_FILE = Moodgpt/Info.plist

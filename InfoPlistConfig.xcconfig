@@ -1,0 +1,11 @@
+// Use a physical Info.plist file instead of generating one
+GENERATE_INFOPLIST_FILE = NO
+INFOPLIST_FILE = Moodgpt/Info.plist
+
+// Make sure it gets included in the bundle
+COPY_PHASE_STRIP = NO
+SKIP_INSTALL = NO
+
+// Code signing settings to avoid issues
+CODE_SIGN_STYLE = Manual
+DEVELOPMENT_TEAM = 

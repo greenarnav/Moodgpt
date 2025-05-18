@@ -1,0 +1,6 @@
+// Enable Info.plist file
+GENERATE_INFOPLIST_FILE = NO
+INFOPLIST_FILE = Moodgpt/Info.plist
+// Ensure the file is properly included in bundle
+COPY_PHASE_STRIP = NO
+SKIP_INSTALL = NO
